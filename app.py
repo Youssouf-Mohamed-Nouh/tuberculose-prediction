@@ -57,7 +57,7 @@ st.markdown("""
 # --- Header ---
 st.markdown("""
 <div class="main-header">
-    <h1>🫁 Détection de la Tuberculose avec CNN</h1>
+    <h1>☣ Détection de la Tuberculose avec CNN</h1>
     <p>Analysez une radiographie pulmonaire pour détecter la présence de Tuberculose</p>
 </div>
 """, unsafe_allow_html=True)
@@ -151,4 +151,5 @@ st.markdown("""
     </div>
 </div>
 """, unsafe_allow_html=True)
+
 
