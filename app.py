@@ -6,7 +6,7 @@ import tensorflow as tf
 # --- Configuration page ---
 st.set_page_config(
     page_title="Détection de la Tuberculose - CNN",
-    page_icon="🫁",
+    page_icon="☣",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -137,7 +137,7 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; padding: 2.5rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             border-radius: 20px; margin-top: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h4 style="color: #495057; margin-bottom: 1rem;">🫁 Votre Assistant Détection Tuberculose</h4>
+    <h4 style="color: #495057; margin-bottom: 1rem;">🧬 Votre Assistant Détection Tuberculose</h4>
     <p style="font-size: 1em; color: #6c757d; margin-bottom: 0.5rem;">
         Créé avec passion par <strong>Youssouf</strong> pour vous aider à analyser les radiographies thoraciques.
     </p>
@@ -151,3 +151,4 @@ st.markdown("""
     </div>
 </div>
 """, unsafe_allow_html=True)
+
